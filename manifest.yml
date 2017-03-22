@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: giu-positivo3
+  host: giu-positivo3
+  disk_quota: 1024M
+  services:
+  - giu-positivo3-AdvancedMobileAccess
+  - giu-positivo3-imfpush
+  - giu-positivo3-cloudantNoSQLDB
+  - watson
